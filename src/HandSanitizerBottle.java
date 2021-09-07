@@ -111,4 +111,9 @@ public class HandSanitizerBottle {
         }
         return 0;
     }
+
+    public String toString()
+    {
+        return String.format("%s-%s scented: %b  volume: %d ml",company, brandName, scented,volumeOfBottle);
+    }
 }
